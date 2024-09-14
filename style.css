@@ -1,0 +1,154 @@
+
+/*pagina*/
+body {
+  
+  background-image: url("Capturar.PNG"); /* Substitua pelo caminho da sua imagem */
+  /* Estilos para a imagem de fundo */
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  font-family: sans-serif; /* Fonte sem serifa */
+
+}
+
+
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ff8c00; /* Laranja vibrante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Impede que a imagem ultrapasse o círculo */
+  margin-bottom: 10px; /* Espaçamento entre o círculo e o texto */
+}
+
+.circle img {
+  width: 100%; /* Ajusta a imagem para o tamanho do círculo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.username {
+  font-size: 24px;
+  color: #333; /* Cinza escuro */
+}
+
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* simblo em baixo do nome */
+.image-container a img {
+ 
+  width: 10px;
+  height: 10px;
+  display: inline-block; /* Posiciona as imagens em linha */
+  width: 30px; /* Largura da imagem */
+  height: 50px; /* Altura da imagem */
+  margin: 10px; /* Margem em torno da imagem */
+  border-radius: 5px; /* Borda arredondada */
+ 
+  transition: transform 0.3s ease; /* Transição para efeito hover */
+}
+
+a img:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+/* Estilos para os botões (simplificado) */
+button {
+  margin: 20px;
+  width: 500px;
+  height: 40px;
+  color: #080807; 
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  background:#f5f0b2 (0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgb(240, 218, 170) 0%,
+    rgb(240, 202, 149) 100%
+  );
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none; 
+}
+
+/* Efeito de hover para o botão */
+button:hover {
+  background: linear-gradient(
+    0deg,
+    rgb(231, 209, 228) 0%,
+    rgb(211, 181, 208) 100%
+  );
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+  
+
+}
+button {
+  display: flex; /* Define o botão como um contêiner flexbox */
+  align-items: center; /* Centraliza os itens na direção vertical */
+  justify-content: center; /* Centraliza os itens na direção horizontal */
+  background-color: transparent; /* Remove o background padrão do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 0; /* Remove o padding do botão */
+  cursor: pointer; /* Define o cursor como ponteiro para indicar que o botão é clicável */
+  gap: 19px;
+}
+
+
+button img {
+  width: 30px; /* Define a largura da imagem */
+  height: 30px; /* Define a altura da imagem */
+  
+    display: flex;  /* Define o botão como um container flexbox */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+  
+}
+
+
+footer {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  letter-spacing: 2px;
+
+  margin-bottom: -30px; /* Define a margem inferior dos parágrafos do rodapé */
+  padding: 10px; /* Define o espaçamento interno do rodapé */
+  text-align: center; /* Alinha o texto do rodapé ao centro */
+  color: #020202; /* Define a cor do texto do rodapé */
+  
+}
+
+footer img {
+  
+  width: 30px; /* Define a largura da imagem */
+  height: 30px; /* Define a altura da imagem */
+  margin-right: 8px; /* Define a margem direita da imagem */
+  border-radius: 50%; /* Define bordas arredondadas para a imagem */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra à imagem */
+}
