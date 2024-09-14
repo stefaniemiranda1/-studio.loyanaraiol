@@ -2,7 +2,7 @@ const circleContainer = document.getElementById('circleContainer');
 const image = document.createElement('img'); 
 
 // Correção: Use o caminho correto da imagem.
-image.src = 'perfil.png'; // Substitua 'Capturar.PNG' pelo caminho correto da imagem. colocar a foto do perfil 
+image.src = 'perfil.PNG'; // Substitua 'Capturar.PNG' pelo caminho correto da imagem. colocar a foto do perfil 
 image.alt = 'Logo'; 
 
 image.onload = () => { // Aguarda o carregamento da imagem
