@@ -7,7 +7,7 @@ botao1.addEventListener("click", function() {
 });
 
 botao2.addEventListener("click", function() {
-  window.open("https://api.whatsapp.com/message/GZTSGRGR6UJ3O1?autoload=1&app_absent=0", "_blank"); // whats
+  window.open("https://api.whatsapp.com/message/GZTSGRGR6UJ3O1?autoload=1&app_absent=0"); // whats
 });
 
 botao3.addEventListener("click", function() {
